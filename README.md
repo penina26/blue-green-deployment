@@ -243,15 +243,15 @@ Manually forced an alarm into `ALARM` state via AWS CLI to trigger the full chai
 
 ## Appendix: Resource Reference
 
-| Resource | Name / ID | ARN (if applicable) |
-|---|---|---|
-| Security Group | `web-tier-sg` | |
-| Blue instances | `web-blue-1`, `web-blue-2` | |
-| Green instances | `web-green-1`, `web-green-2` | |
-| Target Group (Blue) | `tg-blue` | |
-| Target Group (Green) | `tg-green` | |
-| Load Balancer | `app-alb` | |
+| Resource | Name / ID |
+|---|---|
+| Security Group | `web-tier-sg` | 
+| Blue instances | `web-blue-1`, `web-blue-2` | 
+| Green instances | `web-green-1`, `web-green-2` | 
+| Target Group (Blue) | `tg-blue` | 
+| Target Group (Green) | `tg-green` | 
+| Load Balancer | `app-alb` | 
 | Listener | HTTP:80 | |
-| Lambda | `rollback-to-blue` | |
-| EventBridge Rule | `trigger-rollback-on-alarm` | |
-| SNS Topic |`deployment-alerts` | |
+| Lambda | `rollback-to-blue` | 
+| EventBridge Rule | `trigger-rollback-on-alarm` | 
+| SNS Topic |`deployment-alerts` | 
