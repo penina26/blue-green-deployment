@@ -1,9 +1,9 @@
 # Blue-Green Deployment Project Submission
 ### Zero-Downtime Web Tier Deployment on AWS
 
-**Name:**
-**Date:**
-**AWS Region used:**
+**Name:** Penina Wanyama
+**Date:** 14/072026
+**AWS Region used:** us-east-2(ohio)
 
 ---
 
